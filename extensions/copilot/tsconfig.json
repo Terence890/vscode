@@ -11,8 +11,7 @@
 			"node",
 			"picomatch",
 			"sinon",
-			"tar",
-			"vscode"
+			"tar"
 		],
 		// Needed for tsx to run test files
 		"paths": {
@@ -22,9 +21,8 @@
 		}
 	},
 	"include": [
-		"vscodeTypes.ts",
-		"src",
-		"test",
+		"./src",
+		"./test",
 		".vscode/extensions/test-extension"
 	],
 	"exclude": [
